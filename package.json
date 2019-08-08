@@ -4,7 +4,7 @@
   "description": "In the year 3030, Wikipedia might get updated.",
   "scripts": {
     "start": "parcel src/index.html",
-	"build": "parcel build src/index.html",
+	"build": "parcel build src/index.html && cp _redirects dist/_redirects",
 	"storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
