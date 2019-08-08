@@ -1,0 +1,39 @@
+@import (reference) "~wikimedia-ui-base/wikimedia-ui-base.less";
+
+html {
+	color: @color-base;
+	margin: 0;
+	font-family: @font-family-system-sans;
+	line-height: @line-height-base;
+	background-color: @background-color-framed;
+}
+
+html * {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+/**
+ * Text styles
+ */
+h1, h2, h3, h4, h5, h6 {
+	font-family: @font-family-heading-main;
+	line-height: @line-height-heading;
+}
+a {
+	color: @color-primary;
+	text-decoration: @text-decoration-link--hover;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.text-bold {
+	font-weight: bold;
+}
+/**
+ * Box styles
+ **/

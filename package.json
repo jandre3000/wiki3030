@@ -1,0 +1,41 @@
+{
+  "name": "wiki3030",
+  "version": "0.0.1",
+  "description": "In the year 3030, Wikipedia might get updated.",
+  "scripts": {
+    "start": "parcel src/index.html",
+	"build": "parcel build src/index.html",
+	"storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "Jan Drewniak (jan.drewniak@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@vue/component-compiler-utils": "^3.0.0",
+    "autoprefixer": "^9.5.1",
+    "eslint": "^5.16.0",
+    "eslint-config-wikimedia": "^0.12.0",
+    "less-loader": "^5.0.0",
+    "navigo": "^7.1.2",
+    "oojs-ui": "^0.33.3",
+    "parcel-bundler": "^1.12.3",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-template-compiler": "^2.6.10",
+    "vuex": "^3.1.1",
+    "wikimedia-ui-base": "^0.13.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addon-viewport": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/vue": "^5.1.9",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "less": "^3.9.0",
+    "vue-loader": "^15.7.1"
+  }
+}

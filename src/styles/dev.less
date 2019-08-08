@@ -1,0 +1,21 @@
+.dev-view {
+	border: 14px solid rgba(20, 92, 134, 0.13);
+	background-color: rgba(126, 198, 240, 0.05);
+	position: relative;
+	outline: 1px solid rgba(20, 92, 134, 0.5);
+	min-height: 100px;
+	min-width: 200px;
+}
+.dev-view:after {
+	content: attr(title);
+	position: absolute;
+	top: -12px;
+	left: -12px;
+	font-weight: bold;
+	font-size: 9px;
+	opacity: 0.6;
+	color: rgba(20, 92, 134, 1);
+	font-size: 10px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
